@@ -1,4 +1,5 @@
 # Doom_Python (in progress)
+(Inspired by this tutorial: https://lodev.org/cgtutor/raycasting.html)
 
 Currently, I implemented the initial setup: the map, the player and the logics of player-wall collision and movement using basic trigonometry to update the players coordinates.
 Knowing the angle of the players direction and the speed of his movement, we can update the coordinates of the player (dx, dy). 
