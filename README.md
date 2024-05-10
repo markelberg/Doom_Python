@@ -7,6 +7,7 @@ Knowing the angle of the players direction and the speed of his movement, we can
 ![movement_croquis](https://i.imgur.com/dxXTI9x.png)
 <br>
 ![preview](https://i.imgur.com/ymliYA2.gif)
-
+<br>
 I implemented the raycasting logic and optimize it with numpy library so the FOV-rays also check when a collision occurs.
+
 ![preview2](https://i.imgur.com/EXjnEFt.gif)
