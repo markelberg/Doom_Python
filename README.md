@@ -16,5 +16,5 @@ I implemented the raycasting logic so the FOV-rays also check when a collision o
 
 For each ray in the FOV we need to get its intersection point with the wall. Knowing the map functions as a grid, we're going to search for vertical and horizontal intersections in each "square" of the grid and to check if it collides against a wall.  
 
-![ray_croquis](https://i.imgur.com/WZwl8nt.png)
+![ray_croquis](https://i.imgur.com/tmiVQv5.png)
 ![preview2](https://i.imgur.com/EXjnEFt.gif)
