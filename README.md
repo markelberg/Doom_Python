@@ -12,6 +12,8 @@ Knowing the angle of the player's direction and the speed of his movement, we ca
 <br>
 
 ### Raycasting logic (player's FOV)
-I implemented the raycasting logic and optimize it with numpy library so the FOV-rays also check when a collision occurs.
+I implemented the raycasting logic so the FOV-rays also check when a collision occurs and optimize the mathematical parts of the code using Numpy. 
+For each ray in the FOV we need to get its intersection point with the wall. Knowing the map functions as a grid, we're going to search for vertical and horizontal intersections in each "square" of the grid and to check if it collides against a wall.  
+
 
 ![preview2](https://i.imgur.com/EXjnEFt.gif)
